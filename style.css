@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background-image: url("Group\ 7.png");
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.headerdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  right: 350px;
+  top: 30px;
+  padding: 40px;
+}
+
+.topdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  cursor: pointer;
+}
+
+.topdiv p {
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  gap:8px;
+  user-select: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  color: black;
+  padding: 8px 0;
+}
+
+.dropdown-content a {
+  padding: 8px 16px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown.open .dropdown-content {
+  display: block;
+}
+.login1 p {
+  color: rgba(255, 255, 255, 1);
+}
+
+.button2 {
+  width: 137px;
+  height: 48px;
+  border-radius: 28px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 80, 92, 1);
+  border: none;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.38px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: rgba(255, 123, 134, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.login1 {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.middlediv h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Overpass SemiBold;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 98.05px;
+  letter-spacing: -1.9199999570846558px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.middlediv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 130px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.middlediv p {
+  font-family: Overpass Light;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30.64px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: relative;
+  bottom: 40px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.button3 {
+  width: 137px;
+  height: 48px;
+  color: rgba(255, 80, 92, 1);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.38px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border-radius: 28px;
+  border: none;
+  cursor: pointer;
+}
+
+.button3:hover {
+  background-color: rgba(255, 123, 134, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.button4 {
+  border: 1px solid rgba(255, 255, 255, 1);
+  width: 137px;
+  height: 48px;
+  border-radius: 28px;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.38px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.button4:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 123, 134, 1);
+}
+
+.middlemain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.maindiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.text {
+  color: rgba(31, 62, 90, 1);
+  font-family: Overpass SemiBold;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 61.28px;
+  letter-spacing: -1.2000000476837158px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 392px;
+  height: 61px;
+}
+
+.text2 {
+  color: rgba(31, 62, 90, 1);
+  font-family: Overpass SemiBold;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 540px;
+  height: 41px;
+}
+
+.text3 {
+  color: rgba(76, 88, 98, 1);
+  font-family: Overpass Light;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 540px;
+  height: 154px;
+}
+
+.text4 {
+  color: rgba(31, 62, 90, 1);
+  font-family: Overpass SemiBold;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 540px;
+  height: 41px;
+}
+
+.text5 {
+  color: rgba(76, 88, 98, 1);
+  font-family: Overpass Light;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 540px;
+  height: 112px;
+}
+
+.textdivv {
+  display: flex;
+  flex-direction: column;
+}
+
+.maintext {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 40px;
+}
+
+.images2 {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+
+.middlemaindiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  padding-top: 100px;
+  position: relative;
+  top: 70px;
+  background: linear-gradient(135deg, #2d2e40 0%, #3f4164 100%);
+  width: 100%;
+  height: 300px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.text6 {
+  color: white;
+  font-family: Overpass SemiBold;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 61.28px;
+  letter-spacing: -1.2000000476837158px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 504px;
+  height: 61px;
+}
+
+.text7 {
+  font-family: Overpass Light;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 540px;
+  height: 112px;
+  color: white;
+}
+
+.rightdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+  right: 35px;
+}
+
+.images3 {
+  position: relative;
+  bottom: 50px;
+}
+
+.bottommain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  gap: 340px;
+}
+
+.bottommain2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  padding-top: 200px;
+}
+
+.footerdiv {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(36, 36, 44, 1);
+
+  border-top-right-radius: 100px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 250px;
+}
+
+.footerdiv2 {
+  padding: 20px;
+  border-top-right-radius: 100px;
+  position: relative;
+  top: 70px;
+  
+}
+
+.flexdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.text8 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: relative;
+  right: 10px;
+  bottom: 20px;
+}
+
+.text8:hover{
+  font-family: Ubuntu;
+font-size: 15px;
+font-weight: 400;
+line-height: 33px;
+text-align: left;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+font-family: Ubuntu;
+font-size: 15px;
+font-weight: 400;
+line-height: 33px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+cursor: pointer;
+}
+
+.columndiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text9 {
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+.text9:hover{
+  font-family: Ubuntu;
+font-size: 15px;
+font-weight: 400;
+line-height: 33px;
+text-align: left;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+font-family: Ubuntu;
+font-size: 15px;
+font-weight: 400;
+line-height: 33px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+cursor: pointer;
+}
+
+
+
+@media (min-width: 300px) and (max-width: 750px) {
+
+   .topdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    position: relative;
+    left: 150px;
+    font-size: 12px;
+    
+   }
+
+   .login1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    left: 200px;
+   }
+
+   .middlemain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    font-size: 15px;
+    width: 100%;
+   }
+
+   .textdiv{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+   }
+
+   .text{
+    position: relative;
+    top:   140px;
+   }
+
+
+   .flexdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+   }
+
+
+
+   .bottommain{
+    width: 328px;
+    height: 926px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 7px;
+    position: relative;
+    left: 50px;
+   }
+   
+
+
+   
+}
+
